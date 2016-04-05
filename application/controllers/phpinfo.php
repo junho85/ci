@@ -3,6 +3,7 @@
 class Phpinfo extends CI_Controller {
 
     public function index() {
+        print("CodeIgniter " . CI_VERSION);
         phpinfo();
     }
 
